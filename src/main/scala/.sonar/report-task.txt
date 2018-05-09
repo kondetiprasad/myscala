@@ -1,0 +1,6 @@
+projectKey=My:Test
+serverUrl=http://192.168.1.132
+serverVersion=6.7.3.38370
+dashboardUrl=http://192.168.1.132/dashboard/index/My:Test
+ceTaskId=AWM6g927fF3UJ1ljw0ah
+ceTaskUrl=http://192.168.1.132/api/ce/task?id=AWM6g927fF3UJ1ljw0ah
