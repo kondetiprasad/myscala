@@ -1,0 +1,2 @@
+# myscala
+Project for scala
