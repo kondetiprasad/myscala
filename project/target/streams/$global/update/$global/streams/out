@@ -1,22 +1,71 @@
-[0m[[0minfo[0m] [0mUpdating {file:/vagrant/mytest/project/}mytest-build...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#mytest-build;0.1-SNAPSHOT[0m
+[0m[[0minfo[0m] [0mUpdating {file:/root/myscala/project/}myscala-build...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#myscala-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scoverage#sbt-scoverage;1.5.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scoverage#sbt-scoverage;1.5.1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scoverage#sbt-scoverage;1.5.1[0m
-[0m[[0mdebug[0m] [0m	found org.scoverage#sbt-scoverage;1.5.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->compile][0m
+[0m[[0minfo[0m] [0mResolving org.scoverage#sbt-scoverage;1.5.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scoverage#sbt-scoverage;1.5.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.5.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.5.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.scoverage#sbt-scoverage;1.5.1[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.5.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.5.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scoverage#sbt-scoverage;1.5.1[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scoverage/sbt-scoverage/scala_2.10/sbt_0.13/1.5.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scoverage#sbt-scoverage;1.5.1[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scoverage/sbt-scoverage_2.10_0.13/1.5.1/sbt-scoverage-1.5.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scoverage#sbt-scoverage;1.5.1[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scoverage/sbt-scoverage_2.10_0.13/1.5.1/sbt-scoverage-1.5.1.pom (1.5.1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scoverage/sbt-scoverage_2.10_0.13/1.5.1/sbt-scoverage-1.5.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scoverage/sbt-scoverage_2.10_0.13/1.5.1/sbt-scoverage-1.5.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scoverage/sbt-scoverage_2.10_0.13/1.5.1/sbt-scoverage-1.5.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scoverage/sbt-scoverage_2.10_0.13/1.5.1/sbt-scoverage-1.5.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scoverage#sbt-scoverage;1.5.1!sbt-scoverage.pom(pom.original) (32ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scoverage/sbt-scoverage/1.5.1/jars/sbt-scoverage.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scoverage/sbt-scoverage/1.5.1/jars/sbt-scoverage.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scoverage/sbt-scoverage/1.5.1/jars/sbt-scoverage.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scoverage/sbt-scoverage/1.5.1/jars/sbt-scoverage.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scoverage/sbt-scoverage/1.5.1/jars/sbt-scoverage.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scoverage/sbt-scoverage/1.5.1/sbt-scoverage-1.5.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scoverage/sbt-scoverage/1.5.1/sbt-scoverage-1.5.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.sbt/preloaded/org.scoverage/sbt-scoverage/1.5.1/jars/sbt-scoverage.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////root/.sbt/preloaded/org/scoverage/sbt-scoverage/1.5.1/sbt-scoverage-1.5.1.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scoverage#sbt-scoverage;1.5.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.5.1->org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scoverage#scalac-scoverage-plugin_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m	found org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 in sbt-chain[0m
+[0m[[0minfo[0m] [0mResolving org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scoverage/scalac-scoverage-plugin_2.10/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scoverage/scalac-scoverage-plugin_2.10/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.scoverage#scalac-scoverage-plugin_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scoverage/scalac-scoverage-plugin_2.10/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scoverage/scalac-scoverage-plugin_2.10/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scoverage#scalac-scoverage-plugin_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scoverage/scalac-scoverage-plugin_2.10/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scoverage#scalac-scoverage-plugin_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.3.1/scalac-scoverage-plugin_2.10-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scoverage#scalac-scoverage-plugin_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.3.1/scalac-scoverage-plugin_2.10-1.3.1.pom (1.3.1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.3.1/scalac-scoverage-plugin_2.10-1.3.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.3.1/scalac-scoverage-plugin_2.10-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.3.1/scalac-scoverage-plugin_2.10-1.3.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.3.1/scalac-scoverage-plugin_2.10-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scoverage#scalac-scoverage-plugin_2.10;1.3.1!scalac-scoverage-plugin_2.10.pom(pom.original) (40ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scoverage/scalac-scoverage-plugin_2.10/1.3.1/jars/scalac-scoverage-plugin_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scoverage/scalac-scoverage-plugin_2.10/1.3.1/jars/scalac-scoverage-plugin_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scoverage/scalac-scoverage-plugin_2.10/1.3.1/jars/scalac-scoverage-plugin_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scoverage/scalac-scoverage-plugin_2.10/1.3.1/jars/scalac-scoverage-plugin_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scoverage/scalac-scoverage-plugin_2.10/1.3.1/jars/scalac-scoverage-plugin_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.3.1/scalac-scoverage-plugin_2.10-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.5.1->org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.6 ...[0m
@@ -31,35 +80,130 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.5.1->org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.5.1->org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalastyle#scalastyle-sbt-plugin;1.0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle-sbt-plugin;1.0.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalastyle#scalastyle-sbt-plugin;1.0.0[0m
-[0m[[0mdebug[0m] [0m	found org.scalastyle#scalastyle-sbt-plugin;1.0.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile][0m
+[0m[[0minfo[0m] [0mResolving org.scalastyle#scalastyle-sbt-plugin;1.0.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalastyle#scalastyle-sbt-plugin;1.0.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle-sbt-plugin/scala_2.10/sbt_0.13/1.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle-sbt-plugin/scala_2.10/sbt_0.13/1.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.scalastyle#scalastyle-sbt-plugin;1.0.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle-sbt-plugin/scala_2.10/sbt_0.13/1.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle-sbt-plugin/scala_2.10/sbt_0.13/1.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scalastyle#scalastyle-sbt-plugin;1.0.0[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scalastyle/scalastyle-sbt-plugin/scala_2.10/sbt_0.13/1.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalastyle#scalastyle-sbt-plugin;1.0.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.10_0.13/1.0.0/scalastyle-sbt-plugin-1.0.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scalastyle#scalastyle-sbt-plugin;1.0.0[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.10_0.13/1.0.0/scalastyle-sbt-plugin-1.0.0.pom (1.0.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.10_0.13/1.0.0/scalastyle-sbt-plugin-1.0.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.10_0.13/1.0.0/scalastyle-sbt-plugin-1.0.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.10_0.13/1.0.0/scalastyle-sbt-plugin-1.0.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.10_0.13/1.0.0/scalastyle-sbt-plugin-1.0.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalastyle#scalastyle-sbt-plugin;1.0.0!scalastyle-sbt-plugin.pom(pom.original) (34ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle-sbt-plugin/1.0.0/jars/scalastyle-sbt-plugin.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle-sbt-plugin/1.0.0/jars/scalastyle-sbt-plugin.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle-sbt-plugin/1.0.0/jars/scalastyle-sbt-plugin.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle-sbt-plugin/1.0.0/jars/scalastyle-sbt-plugin.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scalastyle/scalastyle-sbt-plugin/1.0.0/jars/scalastyle-sbt-plugin.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin/1.0.0/scalastyle-sbt-plugin-1.0.0.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin/1.0.0/scalastyle-sbt-plugin-1.0.0.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.sbt/preloaded/org.scalastyle/scalastyle-sbt-plugin/1.0.0/jars/scalastyle-sbt-plugin.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////root/.sbt/preloaded/org/scalastyle/scalastyle-sbt-plugin/1.0.0/scalastyle-sbt-plugin-1.0.0.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scalastyle#scalastyle-sbt-plugin;1.0.0 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.10;1.0.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalastyle#scalastyle_2.10;1.0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;1.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalastyle#scalastyle_2.10;1.0.0[0m
-[0m[[0mdebug[0m] [0m	found org.scalastyle#scalastyle_2.10;1.0.0 in sbt-chain[0m
+[0m[[0minfo[0m] [0mResolving org.scalastyle#scalastyle_2.10;1.0.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;1.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.10/1.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.10/1.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.scalastyle#scalastyle_2.10;1.0.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.10/1.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.10/1.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scalastyle#scalastyle_2.10;1.0.0[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scalastyle/scalastyle_2.10/1.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalastyle#scalastyle_2.10;1.0.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/1.0.0/scalastyle_2.10-1.0.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scalastyle#scalastyle_2.10;1.0.0[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/1.0.0/scalastyle_2.10-1.0.0.pom (1.0.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/1.0.0/scalastyle_2.10-1.0.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/1.0.0/scalastyle_2.10-1.0.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/1.0.0/scalastyle_2.10-1.0.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/1.0.0/scalastyle_2.10-1.0.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalastyle#scalastyle_2.10;1.0.0!scalastyle_2.10.pom(pom.original) (33ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.10/1.0.0/jars/scalastyle_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.10/1.0.0/jars/scalastyle_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.10/1.0.0/jars/scalastyle_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.10/1.0.0/jars/scalastyle_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scalastyle/scalastyle_2.10/1.0.0/jars/scalastyle_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/1.0.0/scalastyle_2.10-1.0.0.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scalastyle#scalastyle_2.10;1.0.0 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.10;1.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->org.scalariform#scalariform_2.10;0.2.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalariform#scalariform_2.10;0.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalariform#scalariform_2.10;0.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalariform#scalariform_2.10;0.2.0[0m
-[0m[[0mdebug[0m] [0m	found org.scalariform#scalariform_2.10;0.2.0 in sbt-chain[0m
+[0m[[0minfo[0m] [0mResolving org.scalariform#scalariform_2.10;0.2.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalariform#scalariform_2.10;0.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalariform/scalariform_2.10/0.2.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalariform/scalariform_2.10/0.2.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.scalariform#scalariform_2.10;0.2.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.10/0.2.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.10/0.2.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scalariform#scalariform_2.10;0.2.0[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scalariform/scalariform_2.10/0.2.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalariform#scalariform_2.10;0.2.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.2.0/scalariform_2.10-0.2.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scalariform#scalariform_2.10;0.2.0[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.2.0/scalariform_2.10-0.2.0.pom (0.2.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.2.0/scalariform_2.10-0.2.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.2.0/scalariform_2.10-0.2.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.2.0/scalariform_2.10-0.2.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.2.0/scalariform_2.10-0.2.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalariform#scalariform_2.10;0.2.0!scalariform_2.10.pom(pom.original) (28ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalariform/scalariform_2.10/0.2.0/jars/scalariform_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalariform/scalariform_2.10/0.2.0/jars/scalariform_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.10/0.2.0/jars/scalariform_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.10/0.2.0/jars/scalariform_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scalariform/scalariform_2.10/0.2.0/jars/scalariform_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.2.0/scalariform_2.10-0.2.0.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scalariform#scalariform_2.10;0.2.0 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->org.scalariform#scalariform_2.10;0.2.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalariform#scalariform_2.10;0.2.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalariform#scalariform_2.10;0.2.0->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->com.typesafe#config;1.2.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.2.0[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.2.0 in sbt-chain[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe#config;1.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.2.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.2.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.typesafe#config;1.2.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.2.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.2.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.typesafe#config;1.2.0[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe/config/1.2.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe#config;1.2.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.typesafe#config;1.2.0[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom (1.2.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe#config;1.2.0!config.pom(pom.original) (33ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.2.0/bundles/config.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.2.0/bundles/config.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.2.0/bundles/config.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.2.0/bundles/config.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe/config/1.2.0/bundles/config.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.2.0 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->com.typesafe#config;1.2.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.10;1.0.0 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.10;1.0.0 [compile->compile][0m
@@ -73,41 +217,172 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->com.typesafe#config;1.2.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.10;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.10;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.aol.sbt#sbt-sonarrunner-plugin;1.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.aol.sbt#sbt-sonarrunner-plugin;1.0.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.aol.sbt#sbt-sonarrunner-plugin;1.0.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.aol.sbt#sbt-sonarrunner-plugin;1.0.4 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.aol.sbt#sbt-sonarrunner-plugin;1.0.4[0m
-[0m[[0mdebug[0m] [0m	found com.aol.sbt#sbt-sonarrunner-plugin;1.0.4 in sbt-chain[0m
+[0m[[0minfo[0m] [0mResolving com.aol.sbt#sbt-sonarrunner-plugin;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.aol.sbt#sbt-sonarrunner-plugin;1.0.4 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.aol.sbt/sbt-sonarrunner-plugin/scala_2.10/sbt_0.13/1.0.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.aol.sbt/sbt-sonarrunner-plugin/scala_2.10/sbt_0.13/1.0.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.aol.sbt#sbt-sonarrunner-plugin;1.0.4[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.aol.sbt/sbt-sonarrunner-plugin/scala_2.10/sbt_0.13/1.0.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: found md file for com.aol.sbt#sbt-sonarrunner-plugin;1.0.4[0m
+[0m[[0mdebug[0m] [0m		=> https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.aol.sbt/sbt-sonarrunner-plugin/scala_2.10/sbt_0.13/1.0.4/ivys/ivy.xml (1.0.4)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.aol.sbt/sbt-sonarrunner-plugin/scala_2.10/sbt_0.13/1.0.4/ivys/ivy.xml ...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.aol.sbt/sbt-sonarrunner-plugin/scala_2.10/sbt_0.13/1.0.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.aol.sbt/sbt-sonarrunner-plugin/scala_2.10/sbt_0.13/1.0.4/ivys/ivy.xml.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.aol.sbt/sbt-sonarrunner-plugin/scala_2.10/sbt_0.13/1.0.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.aol.sbt#sbt-sonarrunner-plugin;1.0.4!ivy.xml(ivy.original) (1340ms)[0m
+[0m[[0mdebug[0m] [0m	found com.aol.sbt#sbt-sonarrunner-plugin;1.0.4 in sbt-plugin-releases[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.codehaus.sonar.runner#sonar-runner-dist;2.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.sonar.runner#sonar-runner-dist;2.4 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.codehaus.sonar.runner#sonar-runner-dist;2.4[0m
-[0m[[0mdebug[0m] [0m	found org.codehaus.sonar.runner#sonar-runner-dist;2.4 in sbt-chain[0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.sonar.runner#sonar-runner-dist;2.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.codehaus.sonar.runner#sonar-runner-dist;2.4 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.sonar.runner/sonar-runner-dist/2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.sonar.runner/sonar-runner-dist/2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.codehaus.sonar.runner#sonar-runner-dist;2.4[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.sonar.runner/sonar-runner-dist/2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.sonar.runner/sonar-runner-dist/2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.codehaus.sonar.runner#sonar-runner-dist;2.4[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.codehaus.sonar.runner/sonar-runner-dist/2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.codehaus.sonar.runner#sonar-runner-dist;2.4[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-dist/2.4/sonar-runner-dist-2.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.codehaus.sonar.runner#sonar-runner-dist;2.4[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-dist/2.4/sonar-runner-dist-2.4.pom (2.4)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-dist/2.4/sonar-runner-dist-2.4.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-dist/2.4/sonar-runner-dist-2.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-dist/2.4/sonar-runner-dist-2.4.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-dist/2.4/sonar-runner-dist-2.4.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.sonar.runner#sonar-runner-dist;2.4!sonar-runner-dist.pom(pom.original) (31ms)[0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.sonar.runner#sonar-runner;2.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.sonar.runner#sonar-runner;2.4 {}[0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.sonar.runner#sonar-runner;2.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.codehaus.sonar.runner#sonar-runner;2.4 {}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.sonar.runner/sonar-runner/2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.sonar.runner/sonar-runner/2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.codehaus.sonar.runner#sonar-runner;2.4[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.sonar.runner/sonar-runner/2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.sonar.runner/sonar-runner/2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.codehaus.sonar.runner#sonar-runner;2.4[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.codehaus.sonar.runner/sonar-runner/2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.codehaus.sonar.runner#sonar-runner;2.4[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner/2.4/sonar-runner-2.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.codehaus.sonar.runner#sonar-runner;2.4[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner/2.4/sonar-runner-2.4.pom (2.4)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner/2.4/sonar-runner-2.4.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner/2.4/sonar-runner-2.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner/2.4/sonar-runner-2.4.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner/2.4/sonar-runner-2.4.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.sonar.runner#sonar-runner;2.4!sonar-runner.pom(pom.original) (38ms)[0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.sonar-plugins#parent;17 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.sonar-plugins#parent;17 {}[0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.sonar-plugins#parent;17 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.codehaus.sonar-plugins#parent;17 {}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.sonar-plugins/parent/17/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.sonar-plugins/parent/17/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.codehaus.sonar-plugins#parent;17[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.sonar-plugins/parent/17/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.sonar-plugins/parent/17/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.codehaus.sonar-plugins#parent;17[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.codehaus.sonar-plugins/parent/17/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.codehaus.sonar-plugins#parent;17[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/sonar-plugins/parent/17/parent-17.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.codehaus.sonar-plugins#parent;17[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/codehaus/sonar-plugins/parent/17/parent-17.pom (17)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/sonar-plugins/parent/17/parent-17.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/sonar-plugins/parent/17/parent-17.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/sonar-plugins/parent/17/parent-17.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/sonar-plugins/parent/17/parent-17.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.sonar-plugins#parent;17!parent.pom(pom.original) (38ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.sonar-plugins/parent/17/jars/parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.sonar-plugins/parent/17/jars/parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.sonar-plugins/parent/17/jars/parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.sonar-plugins/parent/17/jars/parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.codehaus.sonar-plugins/parent/17/jars/parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/sonar-plugins/parent/17/parent-17.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/codehaus/sonar-plugins/parent/17/parent-17.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.sbt/preloaded/org.codehaus.sonar-plugins/parent/17/jars/parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////root/.sbt/preloaded/org/codehaus/sonar-plugins/parent/17/parent-17.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.sonar.runner/sonar-runner/2.4/jars/sonar-runner.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.sonar.runner/sonar-runner/2.4/jars/sonar-runner.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.sonar.runner/sonar-runner/2.4/jars/sonar-runner.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.sonar.runner/sonar-runner/2.4/jars/sonar-runner.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.codehaus.sonar.runner/sonar-runner/2.4/jars/sonar-runner.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner/2.4/sonar-runner-2.4.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner/2.4/sonar-runner-2.4.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.sbt/preloaded/org.codehaus.sonar.runner/sonar-runner/2.4/jars/sonar-runner.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////root/.sbt/preloaded/org/codehaus/sonar/runner/sonar-runner/2.4/sonar-runner-2.4.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.sonar.runner/sonar-runner-dist/2.4/jars/sonar-runner-dist.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.sonar.runner/sonar-runner-dist/2.4/jars/sonar-runner-dist.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.sonar.runner/sonar-runner-dist/2.4/jars/sonar-runner-dist.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.sonar.runner/sonar-runner-dist/2.4/jars/sonar-runner-dist.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.codehaus.sonar.runner/sonar-runner-dist/2.4/jars/sonar-runner-dist.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-dist/2.4/sonar-runner-dist-2.4.jar[0m
+[0m[[0mdebug[0m] [0m	found org.codehaus.sonar.runner#sonar-runner-dist;2.4 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.github.mwz#sbt-sonar;1.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.github.mwz#sbt-sonar;1.3.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.github.mwz#sbt-sonar;1.3.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.mwz#sbt-sonar;1.3.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.mwz#sbt-sonar;1.3.0[0m
-[0m[[0mdebug[0m] [0m	found com.github.mwz#sbt-sonar;1.3.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.github.mwz#sbt-sonar;1.3.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.github.mwz#sbt-sonar;1.3.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.github.mwz/sbt-sonar/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.github.mwz/sbt-sonar/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.github.mwz#sbt-sonar;1.3.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mwz/sbt-sonar/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: found md file for com.github.mwz#sbt-sonar;1.3.0[0m
+[0m[[0mdebug[0m] [0m		=> https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mwz/sbt-sonar/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml (1.3.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mwz/sbt-sonar/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml ...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mwz/sbt-sonar/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mwz/sbt-sonar/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mwz/sbt-sonar/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.mwz#sbt-sonar;1.3.0!ivy.xml(ivy.original) (1651ms)[0m
+[0m[[0mdebug[0m] [0m	found com.github.mwz#sbt-sonar;1.3.0 in sbt-plugin-releases[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.brianmckenna#sbt-wartremover;0.14 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.brianmckenna#sbt-wartremover;0.14 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.brianmckenna#sbt-wartremover;0.14[0m
-[0m[[0mdebug[0m] [0m	found org.brianmckenna#sbt-wartremover;0.14 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->compile][0m
+[0m[[0minfo[0m] [0mResolving org.brianmckenna#sbt-wartremover;0.14 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.brianmckenna#sbt-wartremover;0.14 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.brianmckenna/sbt-wartremover/scala_2.10/sbt_0.13/0.14/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.brianmckenna/sbt-wartremover/scala_2.10/sbt_0.13/0.14/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.brianmckenna#sbt-wartremover;0.14[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.brianmckenna/sbt-wartremover/scala_2.10/sbt_0.13/0.14/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.brianmckenna/sbt-wartremover/scala_2.10/sbt_0.13/0.14/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.brianmckenna#sbt-wartremover;0.14[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.brianmckenna/sbt-wartremover/scala_2.10/sbt_0.13/0.14/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.brianmckenna#sbt-wartremover;0.14[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/brianmckenna/sbt-wartremover_2.10_0.13/0.14/sbt-wartremover-0.14.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.brianmckenna#sbt-wartremover;0.14[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/brianmckenna/sbt-wartremover_2.10_0.13/0.14/sbt-wartremover-0.14.pom (0.14)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/brianmckenna/sbt-wartremover_2.10_0.13/0.14/sbt-wartremover-0.14.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/brianmckenna/sbt-wartremover_2.10_0.13/0.14/sbt-wartremover-0.14.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/brianmckenna/sbt-wartremover_2.10_0.13/0.14/sbt-wartremover-0.14.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/brianmckenna/sbt-wartremover_2.10_0.13/0.14/sbt-wartremover-0.14.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.brianmckenna#sbt-wartremover;0.14!sbt-wartremover.pom(pom.original) (29ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.brianmckenna/sbt-wartremover/0.14/jars/sbt-wartremover.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.brianmckenna/sbt-wartremover/0.14/jars/sbt-wartremover.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.brianmckenna/sbt-wartremover/0.14/jars/sbt-wartremover.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.brianmckenna/sbt-wartremover/0.14/jars/sbt-wartremover.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.brianmckenna/sbt-wartremover/0.14/jars/sbt-wartremover.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/brianmckenna/sbt-wartremover/0.14/sbt-wartremover-0.14.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/brianmckenna/sbt-wartremover/0.14/sbt-wartremover-0.14.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.sbt/preloaded/org.brianmckenna/sbt-wartremover/0.14/jars/sbt-wartremover.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////root/.sbt/preloaded/org/brianmckenna/sbt-wartremover/0.14/sbt-wartremover-0.14.jar[0m
+[0m[[0mdebug[0m] [0m	found org.brianmckenna#sbt-wartremover;0.14 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->master][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 ...[0m
@@ -127,7 +402,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sksamuel/scapegoat/sbt-scapegoat_2.10_0.13/1.0.4/sbt-scapegoat-1.0.4.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sksamuel/scapegoat/sbt-scapegoat_2.10_0.13/1.0.4/sbt-scapegoat-1.0.4.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/sksamuel/scapegoat/sbt-scapegoat_2.10_0.13/1.0.4/sbt-scapegoat-1.0.4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.sksamuel.scapegoat#sbt-scapegoat;1.0.4!sbt-scapegoat.pom(pom.original) (1237ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.sksamuel.scapegoat#sbt-scapegoat;1.0.4!sbt-scapegoat.pom(pom.original) (28ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.sksamuel.scapegoat/sbt-scapegoat/1.0.4/jars/sbt-scapegoat.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.sksamuel.scapegoat/sbt-scapegoat/1.0.4/jars/sbt-scapegoat.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.sksamuel.scapegoat/sbt-scapegoat/1.0.4/jars/sbt-scapegoat.jar[0m
@@ -138,19 +413,19 @@
 [0m[[0mdebug[0m] [0m		tried /root/.sbt/preloaded/com.sksamuel.scapegoat/sbt-scapegoat/1.0.4/jars/sbt-scapegoat.jar[0m
 [0m[[0mdebug[0m] [0m		tried file:////root/.sbt/preloaded/com/sksamuel/scapegoat/sbt-scapegoat/1.0.4/sbt-scapegoat-1.0.4.jar[0m
 [0m[[0mdebug[0m] [0m	found com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 in public[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.5.1->org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.5.1->org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
@@ -159,10 +434,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.5.1->org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.10;1.0.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.10;1.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
@@ -183,8 +458,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalariform#scalariform_2.10;0.2.0->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->com.typesafe#config;1.2.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->com.typesafe#config;1.2.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.aol.sbt#sbt-sonarrunner-plugin;1.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.aol.sbt#sbt-sonarrunner-plugin;1.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
@@ -192,30 +467,30 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.github.mwz#sbt-sonar;1.3.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.github.mwz#sbt-sonar;1.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->master][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.5.1->org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.5.1->org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
@@ -224,10 +499,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.5.1->org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.10;1.0.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.10;1.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
@@ -248,8 +523,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalariform#scalariform_2.10;0.2.0->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->com.typesafe#config;1.2.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->com.typesafe#config;1.2.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.aol.sbt#sbt-sonarrunner-plugin;1.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.aol.sbt#sbt-sonarrunner-plugin;1.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
@@ -257,30 +532,30 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.github.mwz#sbt-sonar;1.3.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.github.mwz#sbt-sonar;1.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->master][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.11 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.11 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.11[0m
@@ -1114,13 +1389,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-sbt#interface;0.13.11 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.5.1->org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.5.1->org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
@@ -1129,10 +1404,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.5.1->org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.10;1.0.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.10;1.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
@@ -1153,8 +1428,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalariform#scalariform_2.10;0.2.0->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->com.typesafe#config;1.2.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->com.typesafe#config;1.2.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.aol.sbt#sbt-sonarrunner-plugin;1.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.aol.sbt#sbt-sonarrunner-plugin;1.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
@@ -1162,30 +1437,30 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.github.mwz#sbt-sonar;1.3.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.github.mwz#sbt-sonar;1.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->master][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
@@ -1802,12 +2077,12 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-sbt#interface;0.13.11 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.5.1->org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.5.1->org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
@@ -1816,10 +2091,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.5.1->org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.10;1.0.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.10;1.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
@@ -1840,8 +2115,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalariform#scalariform_2.10;0.2.0->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->com.typesafe#config;1.2.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->com.typesafe#config;1.2.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.aol.sbt#sbt-sonarrunner-plugin;1.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.aol.sbt#sbt-sonarrunner-plugin;1.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
@@ -1849,32 +2124,32 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.github.mwz#sbt-sonar;1.3.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.github.mwz#sbt-sonar;1.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->master][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.5.1->org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.5.1->org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
@@ -1883,10 +2158,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.5.1->org.scoverage#scalac-scoverage-plugin_2.10;1.3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.10;1.0.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.10;1.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
@@ -1907,8 +2182,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalariform#scalariform_2.10;0.2.0->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->com.typesafe#config;1.2.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;1.0.0->com.typesafe#config;1.2.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.aol.sbt#sbt-sonarrunner-plugin;1.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.aol.sbt#sbt-sonarrunner-plugin;1.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
@@ -1916,30 +2191,30 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.aol.sbt#sbt-sonarrunner-plugin;1.0.4->org.codehaus.sonar.runner#sonar-runner-dist;2.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.github.mwz#sbt-sonar;1.3.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.github.mwz#sbt-sonar;1.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.brianmckenna#sbt-wartremover;0.14 [compile->master][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->com.sksamuel.scapegoat#sbt-scapegoat;1.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
@@ -2556,18 +2831,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-sbt#interface;0.13.11 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#mytest-build;0.1-SNAPSHOT [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#myscala-build;0.1-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->default][0m
@@ -2585,8 +2860,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#jline;2.10.6 [optional->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.6 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}[0m
@@ -2599,30 +2874,80 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.6->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mytest-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#myscala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scoverage#sbt-scoverage;1.5.1!sbt-scoverage.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalastyle#scalastyle-sbt-plugin;1.0.0!scalastyle-sbt-plugin.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.aol.sbt#sbt-sonarrunner-plugin;1.0.4!sbt-sonarrunner-plugin.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.mwz#sbt-sonar;1.3.0!sbt-sonar.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.brianmckenna#sbt-wartremover;0.14!sbt-wartremover.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scoverage/sbt-scoverage_2.10_0.13/1.5.1/sbt-scoverage-1.5.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scoverage/sbt-scoverage_2.10_0.13/1.5.1/sbt-scoverage-1.5.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scoverage/sbt-scoverage_2.10_0.13/1.5.1/sbt-scoverage-1.5.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scoverage/sbt-scoverage_2.10_0.13/1.5.1/sbt-scoverage-1.5.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scoverage/sbt-scoverage_2.10_0.13/1.5.1/sbt-scoverage-1.5.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scoverage#sbt-scoverage;1.5.1!sbt-scoverage.jar (56ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.10_0.13/1.0.0/scalastyle-sbt-plugin-1.0.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.10_0.13/1.0.0/scalastyle-sbt-plugin-1.0.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.10_0.13/1.0.0/scalastyle-sbt-plugin-1.0.0.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.10_0.13/1.0.0/scalastyle-sbt-plugin-1.0.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.10_0.13/1.0.0/scalastyle-sbt-plugin-1.0.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalastyle#scalastyle-sbt-plugin;1.0.0!scalastyle-sbt-plugin.jar (51ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.aol.sbt/sbt-sonarrunner-plugin/scala_2.10/sbt_0.13/1.0.4/jars/sbt-sonarrunner-plugin.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.aol.sbt/sbt-sonarrunner-plugin/scala_2.10/sbt_0.13/1.0.4/jars/sbt-sonarrunner-plugin.jar ...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.aol.sbt/sbt-sonarrunner-plugin/scala_2.10/sbt_0.13/1.0.4/jars/sbt-sonarrunner-plugin.jar[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.aol.sbt/sbt-sonarrunner-plugin/scala_2.10/sbt_0.13/1.0.4/jars/sbt-sonarrunner-plugin.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.aol.sbt/sbt-sonarrunner-plugin/scala_2.10/sbt_0.13/1.0.4/jars/sbt-sonarrunner-plugin.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.aol.sbt#sbt-sonarrunner-plugin;1.0.4!sbt-sonarrunner-plugin.jar (1751ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mwz/sbt-sonar/scala_2.10/sbt_0.13/1.3.0/jars/sbt-sonar.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mwz/sbt-sonar/scala_2.10/sbt_0.13/1.3.0/jars/sbt-sonar.jar ...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mwz/sbt-sonar/scala_2.10/sbt_0.13/1.3.0/jars/sbt-sonar.jar[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mwz/sbt-sonar/scala_2.10/sbt_0.13/1.3.0/jars/sbt-sonar.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mwz/sbt-sonar/scala_2.10/sbt_0.13/1.3.0/jars/sbt-sonar.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.github.mwz#sbt-sonar;1.3.0!sbt-sonar.jar (2017ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/brianmckenna/sbt-wartremover_2.10_0.13/0.14/sbt-wartremover-0.14.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/brianmckenna/sbt-wartremover_2.10_0.13/0.14/sbt-wartremover-0.14.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/brianmckenna/sbt-wartremover_2.10_0.13/0.14/sbt-wartremover-0.14.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/brianmckenna/sbt-wartremover_2.10_0.13/0.14/sbt-wartremover-0.14.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/brianmckenna/sbt-wartremover_2.10_0.13/0.14/sbt-wartremover-0.14.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.brianmckenna#sbt-wartremover;0.14!sbt-wartremover.jar (44ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/sksamuel/scapegoat/sbt-scapegoat_2.10_0.13/1.0.4/sbt-scapegoat-1.0.4.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/sksamuel/scapegoat/sbt-scapegoat_2.10_0.13/1.0.4/sbt-scapegoat-1.0.4.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sksamuel/scapegoat/sbt-scapegoat_2.10_0.13/1.0.4/sbt-scapegoat-1.0.4.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sksamuel/scapegoat/sbt-scapegoat_2.10_0.13/1.0.4/sbt-scapegoat-1.0.4.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/sksamuel/scapegoat/sbt-scapegoat_2.10_0.13/1.0.4/sbt-scapegoat-1.0.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.sksamuel.scapegoat#sbt-scapegoat;1.0.4!sbt-scapegoat.jar (2959ms)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scoverage#scalac-scoverage-plugin_2.10;1.3.1!scalac-scoverage-plugin_2.10.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.sksamuel.scapegoat#sbt-scapegoat;1.0.4!sbt-scapegoat.jar (42ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.3.1/scalac-scoverage-plugin_2.10-1.3.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.3.1/scalac-scoverage-plugin_2.10-1.3.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.3.1/scalac-scoverage-plugin_2.10-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.3.1/scalac-scoverage-plugin_2.10-1.3.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.10/1.3.1/scalac-scoverage-plugin_2.10-1.3.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scoverage#scalac-scoverage-plugin_2.10;1.3.1!scalac-scoverage-plugin_2.10.jar (56ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.6!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalastyle#scalastyle_2.10;1.0.0!scalastyle_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalariform#scalariform_2.10;0.2.0!scalariform_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.sonar.runner#sonar-runner-dist;2.4!sonar-runner-dist.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/1.0.0/scalastyle_2.10-1.0.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/1.0.0/scalastyle_2.10-1.0.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/1.0.0/scalastyle_2.10-1.0.0.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/1.0.0/scalastyle_2.10-1.0.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/1.0.0/scalastyle_2.10-1.0.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalastyle#scalastyle_2.10;1.0.0!scalastyle_2.10.jar (115ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.2.0/scalariform_2.10-0.2.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.2.0/scalariform_2.10-0.2.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.2.0/scalariform_2.10-0.2.0.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.2.0/scalariform_2.10-0.2.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.2.0/scalariform_2.10-0.2.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalariform#scalariform_2.10;0.2.0!scalariform_2.10.jar (177ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe#config;1.2.0!config.jar(bundle) (43ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-dist/2.4/sonar-runner-dist-2.4.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-dist/2.4/sonar-runner-dist-2.4.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-dist/2.4/sonar-runner-dist-2.4.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-dist/2.4/sonar-runner-dist-2.4.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-dist/2.4/sonar-runner-dist-2.4.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.sonar.runner#sonar-runner-dist;2.4!sonar-runner-dist.jar (48ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#sbt;0.13.11!sbt.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#main;0.13.11!main.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.11!compiler-interface.jar[0m
@@ -2675,19 +3000,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.11!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 17771ms :: artifacts dl 3105ms[0m
-[0m[[0mdebug[0m] [0m	report for default#mytest-build;0.1-SNAPSHOT compile produced in /vagrant/mytest/project/target/resolution-cache/reports/default-mytest-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mytest-build;0.1-SNAPSHOT runtime produced in /vagrant/mytest/project/target/resolution-cache/reports/default-mytest-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mytest-build;0.1-SNAPSHOT test produced in /vagrant/mytest/project/target/resolution-cache/reports/default-mytest-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mytest-build;0.1-SNAPSHOT provided produced in /vagrant/mytest/project/target/resolution-cache/reports/default-mytest-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mytest-build;0.1-SNAPSHOT optional produced in /vagrant/mytest/project/target/resolution-cache/reports/default-mytest-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mytest-build;0.1-SNAPSHOT compile-internal produced in /vagrant/mytest/project/target/resolution-cache/reports/default-mytest-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mytest-build;0.1-SNAPSHOT runtime-internal produced in /vagrant/mytest/project/target/resolution-cache/reports/default-mytest-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mytest-build;0.1-SNAPSHOT test-internal produced in /vagrant/mytest/project/target/resolution-cache/reports/default-mytest-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mytest-build;0.1-SNAPSHOT plugin produced in /vagrant/mytest/project/target/resolution-cache/reports/default-mytest-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mytest-build;0.1-SNAPSHOT sources produced in /vagrant/mytest/project/target/resolution-cache/reports/default-mytest-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mytest-build;0.1-SNAPSHOT docs produced in /vagrant/mytest/project/target/resolution-cache/reports/default-mytest-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mytest-build;0.1-SNAPSHOT pom produced in /vagrant/mytest/project/target/resolution-cache/reports/default-mytest-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mytest-build;0.1-SNAPSHOT scala-tool produced in /vagrant/mytest/project/target/resolution-cache/reports/default-mytest-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (17771ms resolve - 3105ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 22321ms :: artifacts dl 4450ms[0m
+[0m[[0mdebug[0m] [0m	report for default#myscala-build;0.1-SNAPSHOT compile produced in /root/myscala/project/target/resolution-cache/reports/default-myscala-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#myscala-build;0.1-SNAPSHOT runtime produced in /root/myscala/project/target/resolution-cache/reports/default-myscala-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#myscala-build;0.1-SNAPSHOT test produced in /root/myscala/project/target/resolution-cache/reports/default-myscala-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#myscala-build;0.1-SNAPSHOT provided produced in /root/myscala/project/target/resolution-cache/reports/default-myscala-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#myscala-build;0.1-SNAPSHOT optional produced in /root/myscala/project/target/resolution-cache/reports/default-myscala-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#myscala-build;0.1-SNAPSHOT compile-internal produced in /root/myscala/project/target/resolution-cache/reports/default-myscala-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#myscala-build;0.1-SNAPSHOT runtime-internal produced in /root/myscala/project/target/resolution-cache/reports/default-myscala-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#myscala-build;0.1-SNAPSHOT test-internal produced in /root/myscala/project/target/resolution-cache/reports/default-myscala-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#myscala-build;0.1-SNAPSHOT plugin produced in /root/myscala/project/target/resolution-cache/reports/default-myscala-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#myscala-build;0.1-SNAPSHOT sources produced in /root/myscala/project/target/resolution-cache/reports/default-myscala-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#myscala-build;0.1-SNAPSHOT docs produced in /root/myscala/project/target/resolution-cache/reports/default-myscala-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#myscala-build;0.1-SNAPSHOT pom produced in /root/myscala/project/target/resolution-cache/reports/default-myscala-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#myscala-build;0.1-SNAPSHOT scala-tool produced in /root/myscala/project/target/resolution-cache/reports/default-myscala-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (22321ms resolve - 4450ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

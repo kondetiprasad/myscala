@@ -1,11 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 <coverage 
-line-rate="0.27" lines-valid="15" lines-covered="4" branches-valid="4" branches-covered="1" branch-rate="0.25" complexity="0" version="1.0" timestamp="1525694981748">
+line-rate="0.27" lines-valid="15" lines-covered="4" branches-valid="4" branches-covered="1" branch-rate="0.25" complexity="0" version="1.0" timestamp="1526411500777">
     <sources>
         <source>--source</source>
-        <source>/vagrant/mytest/src/main/scala</source>
-        <source>/vagrant/mytest/src/main/java</source>
+        <source>/root/myscala/src/main/scala</source>
     </sources>
     <packages>
         <package name="&lt;empty&gt;" line-rate="0.27" branch-rate="0.25" complexity="0">
@@ -20,19 +19,19 @@ line-rate="0.27" lines-valid="15" lines-covered="4" branches-valid="4" branches-
                         <method name="&lt;empty&gt;/MyMulti/canVote" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
                             <lines>
                                 <line number="8" hits="0" branch="false"/>
-                                <line number="7" hits="0" branch="false"/>
-                                <line number="7" hits="0" branch="false"/>
                                 <line number="8" hits="0" branch="false"/>
+                                <line number="7" hits="0" branch="false"/>
+                                <line number="7" hits="0" branch="false"/>
                                 <line number="7" hits="0" branch="false"/>
                             </lines>
                         </method>
                     </methods>
                     <lines>
                         <line number="8" hits="0" branch="false"/>
-                        <line number="7" hits="0" branch="false"/>
                         <line number="3" hits="0" branch="false"/>
-                        <line number="7" hits="0" branch="false"/>
                         <line number="8" hits="0" branch="false"/>
+                        <line number="7" hits="0" branch="false"/>
+                        <line number="7" hits="0" branch="false"/>
                         <line number="7" hits="0" branch="false"/>
                     </lines>
                 </class>
@@ -56,11 +55,11 @@ line-rate="0.27" lines-valid="15" lines-covered="4" branches-valid="4" branches-
                     <methods>
                         <method name="&lt;empty&gt;/MyUtil/canVote" signature="()V" line-rate="0.60" branch-rate="0.50" complexity="0">
                             <lines>
-                                <line number="7" hits="1" branch="false"/>
+                                <line number="8" hits="0" branch="false"/>
                                 <line number="8" hits="0" branch="false"/>
                                 <line number="7" hits="1" branch="false"/>
                                 <line number="7" hits="1" branch="false"/>
-                                <line number="8" hits="0" branch="false"/>
+                                <line number="7" hits="1" branch="false"/>
                             </lines>
                         </method>
                         <method name="&lt;empty&gt;/MyUtil/multiply" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
@@ -70,12 +69,12 @@ line-rate="0.27" lines-valid="15" lines-covered="4" branches-valid="4" branches-
                         </method>
                     </methods>
                     <lines>
-                        <line number="7" hits="1" branch="false"/>
                         <line number="8" hits="0" branch="false"/>
-                        <line number="7" hits="1" branch="false"/>
+                        <line number="8" hits="0" branch="false"/>
                         <line number="3" hits="1" branch="false"/>
                         <line number="7" hits="1" branch="false"/>
-                        <line number="8" hits="0" branch="false"/>
+                        <line number="7" hits="1" branch="false"/>
+                        <line number="7" hits="1" branch="false"/>
                     </lines>
                 </class>
             </classes>
